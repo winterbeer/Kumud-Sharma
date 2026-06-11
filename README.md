@@ -1,5 +1,3 @@
-<div align="center">
-  <img src="https://avatars.githubusercontent.com/winterbeer" alt="Kumud Sharma" width="130" style="border-radius: 50%;" />
 
   # Kumud Sharma
   **ML / AI Engineer · Building intelligent systems, agents, and automation workflows**
