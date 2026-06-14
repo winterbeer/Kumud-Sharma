@@ -1,9 +1,7 @@
+# Kumud Sharma
+**ML / AI Engineer · Building intelligent systems, agents, and automation workflows**
 
-  # Kumud Sharma
-  **ML / AI Engineer · Building intelligent systems, agents, and automation workflows**
-
-  [![GitHub](https://img.shields.io/badge/GitHub-winterbeer-181717?style=flat&logo=github)](https://github.com/winterbeer)
-</div>
+[![GitHub](https://img.shields.io/badge/GitHub-winterbeer-181717?style=flat&logo=github)](https://github.com/winterbeer)
 
 ---
 
@@ -50,6 +48,17 @@ Built as a modular Python application with a Streamlit frontend, FastAPI backend
 **My role:** End-to-end project ownership — problem definition, system architecture, module design, RAG pipeline implementation, and deployment.
 
 [View Repository →](https://github.com/winterbeer/Sakhi--Maternal-Care-Assistant)
+
+---
+
+### 🎯 Ideal Customer Profile Generator
+A multi-agent system that generates Ideal Customer Profiles (ICPs) from a plain-English product description. The design goal was a system that makes its own decisions, evaluates its own output, and can course-correct — not just produce plausible-sounding text.
+
+Built on n8n and Groq (Llama 3.3 70B), the pipeline uses seven agents working in sequence and in parallel: a Router that classifies input and generates adaptive instructions for downstream specialists; four parallel specialist agents (Demographic, Behavioral, Psychological, Problem/JTBD); a Synthesizer that merges all analyses into a single coherent ICP; and a Critic that scores output on consistency, specificity, completeness, and actionability. If the critic fails the ICP, a Refinement agent rewrites it using the critic's specific feedback. Final output is a formatted, downloadable HTML report.
+
+**My role:** End-to-end architecture and implementation — agent design, orchestration logic, critic/refinement loop, and output formatting.
+
+[View Repository →](https://github.com/winterbeer/Ideal-Customer-Profile)
 
 ---
 
